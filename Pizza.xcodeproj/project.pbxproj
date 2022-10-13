@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C5BD38D28F6C21700CD3D7A /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6C5BD38C28F6C21700CD3D7A /* Data.json */; };
 		6C5FFC4128DBB2D6001951DF /* PizzaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5FFC4028DBB2D6001951DF /* PizzaApp.swift */; };
 		6C5FFC4328DBB2D6001951DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5FFC4228DBB2D6001951DF /* ContentView.swift */; };
 		6C5FFC4528DBB2DD001951DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C5FFC4428DBB2DD001951DF /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C5BD38C28F6C21700CD3D7A /* Data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
 		6C5FFC3D28DBB2D5001951DF /* Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5FFC4028DBB2D6001951DF /* PizzaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaApp.swift; sourceTree = "<group>"; };
 		6C5FFC4228DBB2D6001951DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C5BD38B28F6C20000CD3D7A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6C5BD38C28F6C21700CD3D7A /* Data.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		6C5FFC3428DBB2D5001951DF = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 				6C5FFC4028DBB2D6001951DF /* PizzaApp.swift */,
 				6C5FFC5028DBB311001951DF /* ViewModels */,
 				6C5FFC4F28DBB30B001951DF /* Views */,
+				6C5BD38B28F6C20000CD3D7A /* Data */,
 				6C5FFC4E28DBB305001951DF /* Models */,
 				6C5FFC4428DBB2DD001951DF /* Assets.xcassets */,
 				6C5FFC4628DBB2DD001951DF /* Preview Content */,
@@ -157,6 +168,7 @@
 			files = (
 				6C5FFC4828DBB2DD001951DF /* Preview Assets.xcassets in Resources */,
 				6C5FFC4528DBB2DD001951DF /* Assets.xcassets in Resources */,
+				6C5BD38D28F6C21700CD3D7A /* Data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
